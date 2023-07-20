@@ -1,19 +1,12 @@
 # Twitter Data Pipeline using Airflow and AWS
 ## Architecture 
 ![Screenshot 2023-07-20 145552](https://github.com/songcangnguyen/Airflow_DataPipeline/assets/109171837/176b969f-5eec-4c64-8362-a9dbcfa2dedc)
-
 ## Overview 
 Build an end-to-end data pipeline using **Airflow** and **Python**. I extract data using Twitter API, and use **Python** to transform data, deploy the code on **Airflow/EC2** and save the final result on **Amazon S3**
-
 ## Environment: 
 * Python: 3.11.3
 * Pipeline: Airflow
 * AWS EC2, S3
-
-pip3 install pandas 
-pip3 install tweepy 
-pip3 install s3fs #To read and write data from the s3 bucket
-
 ## Progress:
 1. Get access to the Twitter API, create an application to get API Key, API Key Secret, Authentication Tokens, and Authentication Tokens Secret.
 2. Access data from Twitter to perform extract, transform, load using **Python** in Visual Studio Code.
